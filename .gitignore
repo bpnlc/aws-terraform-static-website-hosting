@@ -1,0 +1,9 @@
+# Ignore the Terraform tool directory
+.terraform/
+
+# Ignore state files (they contain secrets!)
+*.tfstate
+*.tfstate.backup
+
+# Ignore variables that might have passwords
+*.tfvars
